@@ -2,18 +2,17 @@
 flask_platform
 ==============
 
+This app will display the type of operating system of the machine that is running the app
 
-Add a short description here!
-
-
-Description
-===========
-
-A longer description of your project goes here...
-
-
-Note
+Instructions
 ====
 
-This project has been set up using PyScaffold 3.0.1. For details and usage
-information on PyScaffold see http://pyscaffold.org/.
+Follow these steps:
+
+1. If you haven't done so already - install python module systeminfo with 
+pip install git+https://github.com/MariyanaLevova/systeminfo
+
+2. Open folder ‘flask_platform’; navigate to folder ‘src’; 
+python run.py
+
+
