@@ -9,10 +9,16 @@ Instructions
 
 Follow these steps:
 
-1. If you haven't done so already - install python module systeminfo with 
+1. If you haven't done so already - install python module systeminfo with
+ 
 pip install git+https://github.com/MariyanaLevova/systeminfo
 
-2. Open folder ‘flask_platform’; navigate to folder ‘src’; 
+3. If you don't have Flask installed run the following command:
+
+pip install flask
+
+2. Open folder ‘flask_platform’; navigate to folder ‘src’
+ 
 python run.py
 
 
