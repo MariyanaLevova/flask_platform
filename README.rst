@@ -18,6 +18,7 @@ pip install git+https://github.com/MariyanaLevova/systeminfo
 pip install flask
 
 3. Open folder ‘flask_platform’; navigate to folder ‘src’.
+
    (a) If you want to display the output in your browser use command line
  
    python run.py
