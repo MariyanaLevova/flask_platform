@@ -13,7 +13,7 @@ from setuptools import setup
 
 # Add here console scripts and other entry points in ini-style format
 entry_points = {
-    'console_scripts':['SEA2=flask_platform.run:run']
+    'console_scripts':['SEA2=flask_platform.run:app.run']
 }
 
 
