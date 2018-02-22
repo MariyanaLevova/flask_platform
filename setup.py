@@ -12,12 +12,10 @@ import sys
 from setuptools import setup
 
 # Add here console scripts and other entry points in ini-style format
-entry_points = """
-[console_scripts]
-# script_name = flask_platform.module:function
-# For example:
-# fibonacci = flask_platform.skeleton:run
-"""
+entry_points = {
+    'console_scripts':[SE_A2=flask_platform.commandline:main']
+}
+
 
 
 def setup_package():
